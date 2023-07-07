@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.case {
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    gap: 5px;
+}
+
+div button {
+    background-color: lime;
+}
+
+.display {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    background-color: red;
+    border-style: solid;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.row1 button {
+    width: 45%;
+}
+
+.row2 button {
+    width: 20%;
+}
+
+.row3 button {
+    width: 20%;
+}
+
+.row4 button {
+    width: 20%;
+}
+
+.row5 button {
+    width: 20%;
+}
