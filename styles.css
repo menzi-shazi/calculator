@@ -1,100 +1,44 @@
 body {
-    background-color: aqua;
-    border-style: solid;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
-.case {
-    margin-left: 30%;
-    margin-top: 1%;
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column;
-    border-style: solid;
-    border-radius: 25px;
-    gap: 5px;
-    width: 40%;
-    height: 70%;
+    flex-wrap: wrap;
 }
 
-div button {
-    background-color: lime;
+.calculator button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
 }
 
-.display {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: end;
-    height: 20%;
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: red;
-    border-style: solid;
-    border-radius: 25px;
+.calculator button.operator {
+    background-color: #ff9800;
 }
 
-.display div {
-    flex-grow: 1;
-    margin-right: 20px;
+.calculator button.clear {
+    background-color: #f44336;
+    color: #fff;
 }
 
-.row1 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 16%;
+.calculator button.equal {
+    background-color: #4caf50;
+    color: #fff;
+    height: 140px;
+    grid-row: span 2;
 }
 
-.row2 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 16%;
-}
-
-.row3 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 16%;
-}
-
-.row4 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 16%;
-}
-
-.row5 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 5px;
-    height: 16%;
-}
-
-.row1 button {
-    width: 45.5%;
-    border-radius: 25px;
-}
-
-.row2 button {
-    width: 21%;
-    border-radius: 25px;
-}
-
-.row3 button {
-    width: 21%;
-    border-radius: 25px;
-}
-
-.row4 button {
-    width: 21%;
-    border-radius: 25px;
-}
-
-.row5 button {
-    width: 21%;
-    border-radius: 25px;
+.calculator button:hover {
+    background-color: #d3d3d3;
 }
